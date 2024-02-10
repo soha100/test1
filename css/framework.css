@@ -1,0 +1,124 @@
+:root{
+    --blue-color: #0075ff;
+    --blue-alt-color: #0d69d5;
+    --orange-color: #f59e0b;
+    --green-color: #22c55e;
+    --red-color: #f44336;
+    --grey-color: #888;
+}
+/* start box */
+.d-flex{
+    display: flex;
+}
+.align-center{
+    align-items: center;
+}
+.space-between{
+    justify-content: space-between;
+}
+.d-block{
+    display: block;
+}
+@media (max-width:767px) {
+    .block-mobile{
+        display: block;
+    }
+}
+.d-grid{
+    display: grid;
+}
+.gap-20{
+    gap: 20px;
+}
+/* end box */
+/* start padding and margin */
+.p-10{
+    padding: 10px;
+}
+.p-15{
+    padding: 15px;
+}
+.p-20{
+    padding: 20px;
+}
+.m-20{
+    margin: 20px;
+}
+.mt-0{
+    margin-top: 0;
+}
+.mt-5{
+    margin-top: 5px;
+}
+.mt-10{
+    margin-top: 10px;
+}
+.mt-20{
+    margin-top: 20px;
+}
+.mb-20{
+    margin-bottom: 20px;
+}
+/* end padding and margin */
+/* start color */
+.bg-white{
+    background-color: white;
+}
+.bg-eee{
+    background-color: #eee;
+}
+.bg-blue{
+    background-color: var(--blue-color);
+}
+.c-black{
+    color: black;
+}
+.c-grey{
+    color: var(--grey-color);
+}
+.c-white{
+    color: white;
+}
+/* end color */
+/* start position */
+.p-relative{
+    position: relative;
+}
+/* end position */
+/* start font */
+.txt-c{
+    text-align: center;
+}
+.fs-14{
+    font-size: 14px;
+}
+@media (max-width:767px) {
+    .txt-c-mobile{
+        text-align: center;
+    }
+}
+/* end font */
+/* start border */
+.rad-6{
+    border-radius: 6px;
+}
+.rad-10{
+    border-radius: 10px;
+}
+/* end border */
+/* start width */
+.w-full{
+    width: 100%;
+}
+.w-fit{
+    width: fit-content;
+}
+/* end width */
+/* start components */
+.between-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* end components */
